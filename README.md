@@ -6,7 +6,7 @@
 
 [visual studio code](https://code.visualstudio.com/)
 
----
+教室的 WIFI
 
-## 20241015
-
+SSID : STUDENT-C2-3
+PWD : 28721940
