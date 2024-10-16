@@ -1,4 +1,4 @@
-# 113_ai_image_basic
+# 113_AI影像互動入門
 
 [嘸蝦米](https://boshiamy.com/)
 
