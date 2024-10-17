@@ -14,6 +14,8 @@
   - SSID : STUDENT-C2-3
   - PWD : 28721940
 
+- 組別：第 5 組
+
 ## 材料表
 
 1. Bread Board
