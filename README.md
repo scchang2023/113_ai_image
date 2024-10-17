@@ -20,7 +20,7 @@
 
 1. Bread Board
 1. USB Cable
-1. ESP8266
+1. ESP8266 ( MCU )
 1. LCD1602
 1. PIR
 1. IN219
