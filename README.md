@@ -33,7 +33,14 @@
 1. 杜邦線
 1. 排針
 
-## 安裝
+## 安裝 ESP8266
 
-1. install Ardunio
-1. esp8266 package : http://arduino.esp8266.com/stable/package_esp8266com_index.json
+- install Ardunio
+- download esp8266 package : 
+
+  - http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+  - https://github.com/esp8266/Arduino/releases/download/2.3.0/package_esp8266com_index.json
+
+- 選擇開發板：NodeMCU 1.0(ESP-12E Module)
+- 選擇正確的 port
