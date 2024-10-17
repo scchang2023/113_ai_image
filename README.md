@@ -1,5 +1,7 @@
 # 113_AI影像互動入門
 
+## 準備
+
 - [嘸蝦米](https://boshiamy.com/)
 
 - [Git](https://git-scm.com/)
@@ -30,3 +32,8 @@
 1. RFID (門禁卡)
 1. 杜邦線
 1. 排針
+
+## 安裝
+
+1. install Ardunio
+1. esp8266 package : http://arduino.esp8266.com/stable/package_esp8266com_index.json
