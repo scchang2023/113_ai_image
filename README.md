@@ -2,6 +2,12 @@
 
 ## 準備
 
+- [嘸蝦米](https://boshiamy.com/)
+
+- [Git](https://git-scm.com/)
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+
 - [Ardunio](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 
 - [倪老師上課用的雲端硬碟](https://drive.google.com/drive/folders/1KgtU5GrxqSX69DrHz9Hf0e90lH7osqnu?usp=drive_link)
