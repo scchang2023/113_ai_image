@@ -13,3 +13,16 @@
 - 教室的 WIFI
   - SSID : STUDENT-C2-3
   - PWD : 28721940
+
+## 材料表
+
+1. Bread Board
+1. USB Cable
+1. ESP8266
+1. LCD1602
+1. PIR
+1. IN219
+1. AD8232
+1. RFID
+1. 杜邦線
+1. 排針
