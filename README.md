@@ -8,7 +8,9 @@
 
 - [Thonny](https://thonny.org/)
 
-- [上課用的雲端硬碟](https://drive.google.com/drive/folders/1KgtU5GrxqSX69DrHz9Hf0e90lH7osqnu?usp=drive_link)
+- [倪老師上課用的雲端硬碟](https://drive.google.com/drive/folders/1KgtU5GrxqSX69DrHz9Hf0e90lH7osqnu?usp=drive_link)
+
+- [郭老師上課用的內部網路磁碟](\\172.16.19.31)
 
 - 教室的 WIFI
   - SSID : STUDENT-C2-3
