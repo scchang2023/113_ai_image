@@ -61,6 +61,6 @@
 
 ---
 
-### [LED Blink](led_blink/README.md)
+### [LED Blink](led_blink//README.md)
 
-### [LCD](lcd/README.md)
+### [LCD](lcd//README.md)
