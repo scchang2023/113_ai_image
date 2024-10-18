@@ -1,3 +1,3 @@
 # LCD
 
-[hello_world](hello_world.ino)
+[hello_world](/esp8266/lcd/hello_world.ino)

@@ -1,3 +1,3 @@
 # led blink
 
-[led_blink](led_blin.ino)
+[led_blink](/esp8266/led_blink/blink.ino)
