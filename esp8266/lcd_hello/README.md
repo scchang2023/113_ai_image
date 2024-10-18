@@ -22,4 +22,4 @@
 
 ## 測試
 
-[hello_world](/esp8266/lcd/lcd_hello.ino)
+[lcd_hello](/esp8266/lcd_hello/lcd_hello.ino)
