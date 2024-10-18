@@ -63,4 +63,4 @@
 
 ### [LED Blink](esp8266//led_blink//README.md)
 
-### [LCD](esp8266//lcd//README.md)
+### [LCD](esp8266//lcd_hello///README.md)
