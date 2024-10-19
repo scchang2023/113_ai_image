@@ -19,7 +19,7 @@
             "includePath": [
                 "C:\\Users\\Owner\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\tools\\sdk\\include",
                 "C:\\Users\\Owner\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\tools\\sdk\\lwip2\\include",
-                "C:\\Users\\Owner\\AppData\\Local\\Temp\\arduino\\sketches\\BEAD52F9CB16039239FE3101C334C479\\core",
+                "D:\\WORK\\113_ai_image_basic\\build\\core",
                 "C:\\Users\\Owner\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\cores\\esp8266",
                 "C:\\Users\\Owner\\AppData\\Local\\Arduino15\\packages\\esp8266\\hardware\\esp8266\\3.1.2\\variants\\nodemcu",
                 "c:\\users\\owner\\appdata\\local\\arduino15\\packages\\esp8266\\tools\\xtensa-lx106-elf-gcc\\3.1.0-gcc10.3-e5f9fec\\xtensa-lx106-elf\\include\\c++\\10.3.0",
@@ -47,7 +47,6 @@
                 "TCP_MSS=536",
                 "LWIP_FEATURES=1",
                 "LWIP_IPV6=0",
-                "DEBUG_ESP_PORT=Serial",
                 "ARDUINO=10607",
                 "ARDUINO_ESP8266_NODEMCU_ESP12E",
                 "ARDUINO_ARCH_ESP8266",
