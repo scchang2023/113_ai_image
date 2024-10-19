@@ -6,7 +6,7 @@
 
 - [Git](https://git-scm.com/)
 
-- [Visual Studio Code](https://code.visualstudio.com/)
+- [VSCode](https://code.visualstudio.com/)
 
 - [Ardunio](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 
@@ -44,7 +44,7 @@
 
 - 開啟「控制台」>「裝置管理員」>「連接埠(COM 和 LPT)」
 
-## 開發環境設定
+## 開發環境設定(使用Ardunio)
 
 - 下載並安裝 [Ardunio](https://support.arduino.cc/hc/en-us/articles/360019833020-Download-and-install-Arduino-IDE)
 
@@ -58,6 +58,15 @@
   至 Tools\\Boards Manager，搜尋 ESP8266 Community 並安裝。
 - 選擇開發板：NodeMCU 1.0(ESP-12E Module)
 - 選擇正確的 port。
+
+## 開發環境設定(在VSCode編寫Arduino)
+
+- 下載並安裝 [VSCode](https://code.visualstudio.com/)
+- 設定 Arduino Extension：安裝 Arduino by microsoft, Arduino-snippets, C/C++, Serial monitor
+- 下載 [Arduino CLI](https://arduino.github.io/arduino-cli/1.0/)
+- 設定 Arduino CLI 的環境變數路徑
+- 設定 Arduino CLI 的使用
+- 使用 Board manager 來安裝不同MCU支援
 
 ---
 
