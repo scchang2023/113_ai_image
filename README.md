@@ -59,17 +59,6 @@
 - 選擇開發板：NodeMCU 1.0(ESP-12E Module)
 - 選擇正確的 port。
 
-## 開發環境設定(在VSCode編寫Arduino)
-
-- 下載並安裝 [VSCode](https://code.visualstudio.com/)
-- 設定 Arduino Extension：安裝 Arduino by microsoft, Arduino-snippets, C/C++, Serial monitor
-- 下載 [Arduino CLI](https://arduino.github.io/arduino-cli/1.0/)
-- 設定 Arduino CLI 的環境變數路徑
-- 設定 Arduino CLI 的使用
-- 使用 Board manager 來安裝不同MCU支援
-
 ---
 
-### [LED Blink](esp8266//led_blink//README.md)
-
-### [LCD](esp8266//lcd_hello///README.md)
+### [LCD1602](doc//lcd1620///README.md)
