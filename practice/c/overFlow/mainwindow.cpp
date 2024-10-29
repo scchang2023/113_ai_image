@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent) :
     s = s-4;
     f = f*2;
     ui->labelIntOverflow->setText(QString::number(s));
-    ui->labelFloatOverflow->setText(QString::number(s));
+    ui->labelFloatOverflow->setText(QString::number(f));
 }
 
 MainWindow::~MainWindow()
