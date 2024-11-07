@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include<stdlib.h>
 
 int main(int argc, char *argv[])
 {
@@ -8,5 +9,6 @@ int main(int argc, char *argv[])
         sum+=i;
 
     printf("1+2+3+...+100=%d\n", sum);
+    system("PAUSE");
     return 0;
 }
