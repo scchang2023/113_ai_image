@@ -43,6 +43,11 @@ x/3.0
 ```
 int a[10];
 
+或是用
+
+#define BUFFER 10
+int a[BUFFER]
+
 ```
 - 指標
 
@@ -61,3 +66,6 @@ delete[] b;
 ```
 `frame[y][x] -> frame[y*w+x]`
 
+- 冷知識
+
+電視沒訊號是，畫面是綠色的，因為影像傳輸是用 YCbCr 的格式，沒訊號時是 000，對應 RGB 剛好是綠色的。
