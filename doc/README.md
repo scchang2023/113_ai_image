@@ -25,7 +25,3 @@
   至 Tools\\Boards Manager，搜尋 ESP8266 Community 並安裝。
 - 選擇開發板：NodeMCU 1.0(ESP-12E Module)
 - 選擇正確的 port。
-
----
-
-## [LCD1602](lcd1620///README.md)
