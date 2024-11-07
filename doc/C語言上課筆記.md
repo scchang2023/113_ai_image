@@ -37,3 +37,27 @@ x/3.0
 - 轉型：數值轉字串
 
 `QString::` 把value轉成字串，兩個冒號是物件的寫法。
+
+- 陣列
+
+```
+int a[10];
+
+```
+- 指標
+
+更有彈性
+```
+int *b; // b是記錄記憶體的位址
+
+b = new [n]; // C語言是用 malloc
+
+或是
+
+b = new [width*height]; //C語言是用 free(b)
+
+要記得釋放記憶體
+delete[] b;
+```
+`frame[y][x] -> frame[y*w+x]`
+
