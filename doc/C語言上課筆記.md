@@ -72,4 +72,19 @@ delete[] b;
 
 - opencv 處理視訊是用 ffmpeg
 
-- 除了泡沬排序法，還有其它的排序法：選擇排序法、快速排序法
+- 除了泡沬排序法，還有其它的排序法：選擇排序法、快速排序法。
+
+- 左值、右值
+
+- 有空查一下 try & catch
+
+- malloc 用法
+
+```
+int *ptr;
+ptr = (*int) malloc(3*sizeof(int));
+```
+
+- new & delete，是 C++ 的寫法，new 完之後要記得 delete。
+
+- 要注意變數宣告視野
