@@ -88,3 +88,5 @@ ptr = (*int) malloc(3*sizeof(int));
 - new & delete，是 C++ 的寫法，new 完之後要記得 delete。
 
 - 要注意變數宣告視野
+
+- 指標函數
