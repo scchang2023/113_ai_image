@@ -23,3 +23,17 @@
 1. RFID (門禁卡)
 1. 杜邦線
 1. 排針
+
+## AI工具
+1. ChatGPT
+1. Cloude
+1. Gemini
+1. Bing
+
+sudo apt update
+sudo apt install gcc
+
+nano
+ctrl + o 存檔
+ctrl + x 退出
+ctrl + w 搜尋關鍵字
