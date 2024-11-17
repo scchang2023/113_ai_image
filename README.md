@@ -30,10 +30,19 @@
 1. Gemini
 1. Bing
 
-sudo apt update
-sudo apt install gcc
+## Linux 相關指令
 
-nano
+更新工具包
+```
+sudo apt update
+```
+安裝gcc
+```
+sudo apt install gcc
+```
+nano 常用快速鍵
+```
 ctrl + o 存檔
 ctrl + x 退出
 ctrl + w 搜尋關鍵字
+```
