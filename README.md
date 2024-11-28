@@ -1,8 +1,9 @@
-# 113_AI影像互動入門
+# 113_AI影像互動入門/實戰應用
 
 ## 上課共用資料夾
 
-- [倪老師上課用的雲端硬碟](https://drive.google.com/drive/folders/1KgtU5GrxqSX69DrHz9Hf0e90lH7osqnu?usp=drive_link)
+- [倪老師上課用的雲端硬碟(上)](https://drive.google.com/drive/folders/1KgtU5GrxqSX69DrHz9Hf0e90lH7osqnu?usp=drive_link)
+- [倪老師上課用的雲端硬碟(下)](https://drive.google.com/drive/folders/1km-2vxKUzDoDOLrju-PHctwpggKuuiMD)
 
 - 郭老師上課用的內部網路磁碟 ( \\\\172.16.19.31 )
 
@@ -30,10 +31,8 @@
 1. Gemini
 1. Bing
 
-sudo apt update
-sudo apt install gcc
-
-nano
-ctrl + o 存檔
-ctrl + x 退出
-ctrl + w 搜尋關鍵字
+## 常用視訊library
+1. opencv：處理音訊很爛，jasper是處理音訊，沒有也沒差
+1. ffmpeg
+1. live555：比較小
+1. gstreamer
