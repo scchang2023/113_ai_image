@@ -7,6 +7,8 @@
 
 - 郭老師上課用的內部網路磁碟 ( \\\\172.16.19.31 )
 
+- [C語言上課筆記](/doc/C語言上課筆記.md)
+
 ## WIFI AP
 
 - SSID : STUDENT-C2-1 or STUDENT-C1
@@ -31,8 +33,4 @@
 1. Gemini
 1. Bing
 
-## 常用視訊library
-1. opencv：處理音訊很爛，jasper是處理音訊，沒有也沒差
-1. ffmpeg
-1. live555：比較小
-1. gstreamer
+
