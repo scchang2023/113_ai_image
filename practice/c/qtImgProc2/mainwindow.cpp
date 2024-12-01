@@ -10,10 +10,19 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    IplImage *img = cvLoadImage("D:/WORK/113_ai_image/practice/c/qtImageProcessing/test1.jpg");
-    cvNamedWindow("a");
-    cvShowImage("a", img);
-    cvWaitKey(0);
+//    IplImage *img = cvLoadImage("D:/WORK/113_ai_image/practice/c/testFile/dora1.jpg");
+//    cvNamedWindow("a");
+//    cvShowImage("a", img);
+//    cvWaitKey(0);
+
+//    CvCapture *cap = cvCreateFileCapture("D:/WORK/113_ai_image/practice/c/testFile/3sec.mp4");
+//    IplImage *img;
+//    cvNamedWindow("a");
+//    while(1){
+//        img = cvQueryFrame(cap);
+//        cvShowImage("a", img);
+//        cvWaitKey(33);
+//    }
 
     imageOpened = false;
 }
