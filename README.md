@@ -1,10 +1,14 @@
-# 113_AI影像互動入門
+# 113_AI影像互動入門/實戰應用
 
 ## 上課共用資料夾
 
-- [倪老師上課用的雲端硬碟](https://drive.google.com/drive/folders/1KgtU5GrxqSX69DrHz9Hf0e90lH7osqnu?usp=drive_link)
+- [倪老師上課用的雲端硬碟(上)](https://drive.google.com/drive/folders/1KgtU5GrxqSX69DrHz9Hf0e90lH7osqnu?usp=drive_link)
+- [倪老師上課用的雲端硬碟(下)](https://drive.google.com/drive/folders/1km-2vxKUzDoDOLrju-PHctwpggKuuiMD)
 
 - 郭老師上課用的內部網路磁碟 ( \\\\172.16.19.31 )
+
+- [C語言上課筆記](/doc/C語言上課筆記.md)
+- [opencv上課筆記](/doc/opencv上課筆記.md)
 
 ## WIFI AP
 
@@ -30,6 +34,7 @@
 1. Gemini
 1. Bing
 
+<<<<<<< HEAD
 ## Linux 相關指令
 
 更新工具包
@@ -46,3 +51,6 @@ ctrl + o 存檔
 ctrl + x 退出
 ctrl + w 搜尋關鍵字
 ```
+=======
+
+>>>>>>> 776a7873a44c7bfd0f20bb682bb9c4fce438ea93
