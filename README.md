@@ -34,23 +34,3 @@
 1. Gemini
 1. Bing
 
-<<<<<<< HEAD
-## Linux 相關指令
-
-更新工具包
-```
-sudo apt update
-```
-安裝gcc
-```
-sudo apt install gcc
-```
-nano 常用快速鍵
-```
-ctrl + o 存檔
-ctrl + x 退出
-ctrl + w 搜尋關鍵字
-```
-=======
-
->>>>>>> 776a7873a44c7bfd0f20bb682bb9c4fce438ea93
