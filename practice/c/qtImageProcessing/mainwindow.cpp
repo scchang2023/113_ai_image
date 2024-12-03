@@ -9,7 +9,8 @@ MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::MainWindow)
 {
-//    ui->setupUi(this);
+    ui->setupUi(this);
+
 //    IplImage *img = cvLoadImage("D:/WORK/113_ai_image/practice/c/testFile/dora1.jpg");
 //    cvNamedWindow("a");
 //    cvShowImage("a", img);
@@ -69,8 +70,7 @@ void MainWindow::brightAdjust()
     int h = orgImg->height();
 
     for(int y=0;y<h;y++)
-        for(int x=0;x<w*4;x+=4)
-        {
+        for(int x=0;x<w*4;x+=4){
             int r,g,b;
             r = rgba[y*w*4+x+2]*(1+adjustValue);
             (r>255)?r=255:r=r;
@@ -81,38 +81,8 @@ void MainWindow::brightAdjust()
             b = rgba[y*w*4+x]*(1+adjustValue);
             (b>255)?b=255:b=b;
             (b<0)?b=0:b=b;
-
             adjustedImg->setPixel(x/4,y,qRgb(r,g,b));
         }
-
     *showImg = adjustedImg->scaled(ui->labelPic->width(),ui->labelPic->height());
     ui->labelPic->setPixmap(QPixmap::fromImage(*showImg));
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
