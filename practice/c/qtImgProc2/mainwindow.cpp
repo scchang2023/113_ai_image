@@ -10,20 +10,6 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-//    IplImage *img = cvLoadImage("D:/WORK/113_ai_image/practice/c/testFile/dora1.jpg");
-//    cvNamedWindow("a");
-//    cvShowImage("a", img);
-//    cvWaitKey(0);
-
-//    CvCapture *cap = cvCreateFileCapture("D:/WORK/113_ai_image/practice/c/testFile/3sec.mp4");
-//    IplImage *img;
-//    cvNamedWindow("a");
-//    while(1){
-//        img = cvQueryFrame(cap);
-//        cvShowImage("a", img);
-//        cvWaitKey(33);
-//    }
-
     imageOpened = false;
 }
 
@@ -36,19 +22,17 @@ void MainWindow::openImage()
 {
     QString ImageFileName;
     QFileDialog *d = new QFileDialog();
-    if(d->exec()==QDialog::Accepted)
-    {
-        ImageFileName = d->selectedFiles()[0];
+    if(d->exec() == QDialog::Accepted){
+        ImageFileName = d->selectedFiles()[0]; //選擇第1個影像檔案
         orgImg = new QImage();
         orgImg->load(ImageFileName);
-        adjustedImg = new QImage(orgImg->width(),orgImg->height(),orgImg->format());
+        adjustedImg = new QImage(orgImg->width(), orgImg->height(), orgImg->format());
         showImg = new QImage(*orgImg);
 
-        *showImg = showImg->scaled(ui->labelPic->size());
-        ui->labelPic->setPixmap(QPixmap::fromImage(*showImg));
+        *showImg = showImg->scaled(ui->labelPic->size()); //調整影像大小
+        ui->labelPic->setPixmap(QPixmap::fromImage(*showImg));//顯示影像
         ui->labelBrightAdjustValue->setText("0");
         ui->sliderImageBrightness->setSliderPosition(0);
-
         imageOpened = true;
     }
 }
