@@ -12,7 +12,7 @@
 
 ## WIFI AP
 
-- SSID : STUDENT-C2-1 or STUDENT-C1
+- SSID : STUDENT-C2-1 or STUDENT-C2-3
 - Password : 28721940
 
 ## 材料表
