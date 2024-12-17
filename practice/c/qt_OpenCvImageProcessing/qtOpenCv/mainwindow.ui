@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>889</width>
+    <height>570</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labelPic">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>20</y>
+      <width>720</width>
+      <height>480</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sliderAlpha">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>0</number>
+    </property>
+    <property name="maximum">
+     <number>200</number>
+    </property>
+    <property name="singleStep">
+     <number>2</number>
+    </property>
+    <property name="sliderPosition">
+     <number>100</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QSlider" name="sliderBeta">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="minimum">
+     <number>-128</number>
+    </property>
+    <property name="maximum">
+     <number>128</number>
+    </property>
+    <property name="orientation">
+     <enum>Qt::Horizontal</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelBeta">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>80</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelAlpha">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>50</y>
+      <width>21</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Save</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>889</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>openImage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>72</x>
+     <y>56</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>102</x>
+     <y>54</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderAlpha</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>brightAndContrast()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>79</x>
+     <y>83</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>144</x>
+     <y>83</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>sliderBeta</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindow</receiver>
+   <slot>brightAndContrast()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>96</x>
+     <y>113</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>145</x>
+     <y>115</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButton_2</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>saveImage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>78</x>
+     <y>152</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>117</x>
+     <y>154</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>openImage()</slot>
+  <slot>brightAndContrast()</slot>
+  <slot>saveImage()</slot>
+ </slots>
+</ui>
